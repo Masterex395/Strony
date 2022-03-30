@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="prosty klakulator w JS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kalkulator</title>
+    </head>
+    <body>
+       
+        <h3>Kalkulator</h3>
+        <form action="" name="kalkulator3">
+            <fieldgroup>
+              <input type="text" name="l1">
+ 
+               <input type="text" name="l2">
+         </fieldgroup>
+         <filedgroup>
+              <input type="button" value="+" id="suma" onClick="dzialanie4(this.value)">
+                <input type="button" value="-" id="roznica" onClick="dzialanie4(this.value)">
+             <input type="button" value="*" id="iloczyn" onClick="dzialanie4(this.value)">
+             <input type="button" value="/" id="iloraz" onClick="dzialanie4(this.value)">
+          </filedgroup>
+        </form>
+<div id="wynik"></div>
+<br />
+<p>Aby wrócić na stronę główną <a href="index.html">kliknij tu</a></p>
+        <script>
+function dzialanie1(operacja){
+   var l1=document.kalkulator1.l1.value ;
+   var l2=document.kalkulator1.l2.value;
+ 
+   if (operacja=='suma') oper="+";
+   else if (operacja=='roznica') oper="-";
+   else if (operacja=='iloczyn') oper="*";
+   else if (operacja=='iloraz') oper="/";
+ 
+   var suma=eval(l1+oper+l2);
+   alert(suma);
+}
+function dzialanie2(operacja){
+   var l1=document.kalkulator2.l1.value ;
+   var l2=document.kalkulator2.l2.value;
+    
+   var suma=eval(l1+operacja+l2);
+ 
+   alert(suma);
+}
+function dzialanie3(operacja){
+ 
+   var l1=document.kalkulator3.l1.value ;
+   var l2=document.kalkulator3.l2.value;
+ 
+   if (operacja=='+') var suma = parseInt(l1) + parseInt(l2);
+   else if (operacja=='-') var suma = parseInt(l1) - parseInt(l2);
+   else if (operacja=='*') var suma = parseInt(l1) * parseInt(l2);
+   else if (operacja=='/') var suma = parseInt(l1) / parseInt(l2);
+   return(suma);
+}
+ 
+function wynikMod(wynik){
+   document.getElementById("wynik").innerHTML="<strong>Wynik działania </strong>"+wynik;
+}
+ 
+function dzialanie4(operacja){
+//Funkcja, która  składa się z 2 innych
+//W ten sposób można jednolicie wykonać kilka funkcji w jednej instrukcji
+ 
+   wynikMod(dzialanie3(operacja));
+}
+        </script>
+    </body>
+</html>

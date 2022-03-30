@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#pasek
+{
+	width: 100%;
+	height: 1%;
+	background-color: #0078FF;
+	float: left;
+}
+#pasek2
+{
+	width: 100%;
+	height: 1%;
+	background-color: #0078FF;
+	float: left;
+}
+#pasek1
+{
+	width:100%;
+	height: 1%;
+	background-color: #103060;
+	float: left;
+}
+#gora
+{
+	width: 100%;
+	height: 1%;
+	background-color: #3A70B5;
+}
+#lewy
+{
+	width:10%;
+	height:60%;
+	float:left;
+}
+#prawy
+{
+	width:10%;
+	height:60%;
+	float:right;	
+}
+#dolny
+{
+	width: 100%;
+	height: 1%;
+	background-color: white;
+	float: left;
+}
+#ramka
+{
+	width: 100%;
+}
+#lbaner
+{
+	width: 10%;
+	height: 9%;
+	background-color: #101050;
+	float: left;
+}
+#pbaner
+{
+	width: 10%;
+	height: 9%;
+	background-color: #101050;
+	float: right;
+}
+#baner1
+{
+	width: 40%;
+	height: 9%;
+	background-color: #101050;
+	color: white;
+	text-align: left;
+	float: left;
+	font-family: 'Lucida Sans Unicode';
+
+	
+}
+#siema
+{
+	color: yellow;
+	text-align: left;
+	float: left;
+	font-size: 31px;
+}
+#witam
+{
+	color: white;
+	text-align: left;
+	float: left;
+	font-size: 31px;
+}
+#baner2
+{
+	width: 40%;
+	height: 9%;
+	background-color: #101050;
+	color: white;
+	text-align: left;
+	float: left;
+	font-family: 'Lucida Sans Unicode';
+
+}
+#home
+{
+	float: right;
+	color: white;
+	background-color: #000030;
+	border: 2px solid #000030;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 10px;
+	position: relative;top: 17px;
+}
+.przycisk
+{
+	float: right;
+	color: white;
+	background-color: #000030;
+	border: 2px solid #000030;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px 10px;
+	position: relative;top: 17px;
+}
+.guzik
+{
+	float: right;
+	color: black;
+	background-color: #FFE010;
+	border: 2px solid #FFE010;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+	border-radius: 15px;
+	padding: 10px 10px;
+	position: relative;top: 5px;
+	position: relative;right: 15px;
+}
+#lpodbaner
+{
+	width: 10%;
+	height: 25%;
+	float: left;
+	background-color: #103060;
+}
+#ppodbaner
+{
+	width: 10%;
+	height: 25%;
+	float: right;
+	background-color: #103060;
+}
+#podbaner1
+{
+	width: 47%;
+	height: 25%;
+	float: left;
+	background-color: #103060;
+	font-family: 'Lucida Sans Unicode';
+	color: white;
+	text-align: left;
+}
+#podbaner2
+{
+	width: 28%;
+	height: 25%;
+	float: left;
+	background-color: #103060;
+}
+#podbaner3
+{
+	width: 5%;
+	height: 25%;
+	float: left;
+	background-color: #103060;
+}
+#menu
+{
+	width: 16%;
+	height: 35%;
+	float: left;
+	background-color: white;
+	font-family: 'Lucida Sans Unicode';
+}
+dl, dt, dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+dt {
+	width: 180px;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-size: larger;
+	text-align: center;
+	background: white;
+	color: #0078FF;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+
+dd {
+	width: 190px;
+	padding-left: 10px;
+	background: #0078FF;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 10px;
+}
+
+dl a:link, dl a:visited {
+	display: block;
+	width: 169px;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-weight: bold;
+	background: #BFBFBF;
+	color: #0078FF;
+	border-left: 1px solid #797;
+	border-radius: 5px;
+}
+
+dl a:hover {
+	background-color: #0078FF;
+	color: white;
+}
+#reklamy
+{
+	width: 16%;
+	height: 25%;
+	background-color: white;
+	float: left;
+	font-family: 'Lucida Sans Unicode';
+	color: #0078FF;
+	text-align: center;
+}
+#przerwasr
+{
+	width: 5%;
+	height: 10%;
+	background-color: white;
+}
+#srodek
+{
+	width: 60%;
+	height: 60%;
+	float: right;
+	background-color: white;
+	text-align: center;
+	font-family: 'Lucida Sans Unicode';
+}
+#stopka
+{
+
+	width: 100%;
+	height:5%;
+	background-color: #1C59A7;
+	color: white;
+	float: left;
+	font-family: 'Lucida Sans Unicode';
+}
+#elo
+{
+	color: #0078FF;
+	font-size: 30px;
+	text-align:left;
+}
